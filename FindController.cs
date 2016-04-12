@@ -3,11 +3,11 @@ using System.Collections;
 
 /// <summary>
 ///
-/// This class works wiht the "ControllerWrapper" class and is used to receive events from it. 
-/// To use this class place it on any game object that should receive events from a controller (i.e. - button press) 
-/// Modify as nessacary. 
+/// This class works with the "ControllerWrapper" class and is used to receive events from it. 
+/// To use this class, place it on any game object that should receive events from a controller (i.e. - button press) 
+/// Modify as necessary. 
 /// 
-/// This class is far from effecient and may have errors. So you have optimizations or find errors please let me know 
+/// This class is far from efficient and may have errors. So if you have optimizations or find errors please let me know 
 /// or better yet provide the solutions. 
 /// 
 /// </summary>

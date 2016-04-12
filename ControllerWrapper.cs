@@ -92,7 +92,7 @@ void Start() {
                 e.flags = (uint)controllerState.ulButtonPressed;
                 e.padX = controllerState.rAxis0.x;
                 e.padY = controllerState.rAxis0.y;
-                //I beleive the null check is handled in the SteamVR_Utils before the event is sent
+                //I believe the null check is handled in the SteamVR_Utils before the event is sent
                 //TODO see if this good enough null checking
                 SteamVR_Utils.Event.Send("triggerClicked", e);
 
